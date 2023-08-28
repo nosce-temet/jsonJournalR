@@ -32,6 +32,7 @@ server <- function(input, output, session) {
     dateInput(
       "date",
       "Choose date",
+      weekstart = 1,
       value = lastEntryOnLoad
     )
   )
